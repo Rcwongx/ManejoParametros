@@ -24,6 +24,7 @@ public class Servlet extends HttpServlet {
         //Nos permite escribir en el navegador 
         PrintWriter out = resp.getWriter();
         out.print("Bienvenido, " + userName);
+        out.close();
     }
     
     
